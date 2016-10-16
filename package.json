@@ -1,0 +1,24 @@
+{
+  "name": "jquery.slstorage",
+  "version": "1.0.0",
+  "description": "jquery plugin Seemless Storage",
+  "main": "$.SLStorage.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/osamasaeed/jQuery.slstorage"
+  },
+  "author": "osamasaeeda4@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.1.0",
+    "main-bower-files": "^2.13.1"
+  },
+  "dependencies": {
+    "gulp-webserver": "^0.9.1"
+  }
+}

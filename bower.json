@@ -1,0 +1,26 @@
+{
+  "name": "jquery slstorage",
+  "homepage": "(https://github.com/osamasaeed/jQuery.slstorage",
+  "authors": [
+    "osamasaeed <osamasaeeda4@gmail.com>"
+  ],
+  "description": "seemless storage",
+  "main": "$.SLStorage.js",
+  "keywords": [
+    "localStorage",
+    "hidden-data",
+    "loaclStorage-Alternative"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

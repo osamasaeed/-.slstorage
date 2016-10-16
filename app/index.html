@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Jquery Seemless Storage</title>
+  <!-- inject:css -->
+  <!-- endinject -->
+</head>
+<body>
+<h1>Jquery Seemless Storage</h1>
+<h2>Value in SLStorage is : <p id='value'></p></h2>
+
+	<!-- vendorInject:js -->
+	<!-- endinject -->
+ 
+	<!-- inject:js -->
+	<!-- endinject -->
+<script>
+	if($.slstorage.get('msg') === 'undefined'){
+		console.log('putting in storage');
+		$.slstorage.put('msg','I am Osama');
+		}
+
+	console.log($.slstorage.get('msg'));
+
+	$('#value').html($.slstorage.get('msg'));
+	
+	/* Available End Points */
+	
+//   $.slstorage.get( key ); 			/* retrive data with key */
+//   $.slstorage.put( key , value ); 	/* putting data into the storage with key and value */
+//   $.slstorage.remove( key ); 		/* remove  data from the storage the key match with */
+//   $.slstorage.reset(); 		        /* reset  the storage */
+
+</script>
+<body>
+</html>

@@ -48,7 +48,6 @@
 		
 		service.get = function (key) { 
 			try{
-				console.log(store);
 				return store[prefix+key].key;
 			}catch(e){
 				return 'undefined';
