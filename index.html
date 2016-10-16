@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Jquery Seemless Storage</title>
+</head>
+<body>
+<h1>Jquery Seemless Storage</h1>
+<h2>Value in SLStorage is : <p id='value'></p></h2>
+<script src="jquery.min.js"></script>
+<script src="$.SLStorage.js"></script>
+
+<script>
+	if($.slstorage.get('msg') === undefined){
+		console.log('putting in storage');
+		$.slstorage.put('msg','I am Osama');
+		}
+
+	console.log($.slstorage.get('msg'));
+
+	$('#value').html($.slstorage.get('msg'));
+</script>
+
+<body>
+</html>
