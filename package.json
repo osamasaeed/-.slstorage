@@ -1,7 +1,7 @@
 {
   "name": "jquery.slstorage",
   "version": "1.0.0",
-  "description": "jquery plugin Seemless Storage",
+  "description": "jquery plugin Seamless Storage",
   "main": "$.SLStorage.js",
   "scripts": {
     "test": "gulp"
