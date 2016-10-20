@@ -4,7 +4,7 @@
   "authors": [
     "osamasaeed <osamasaeeda4@gmail.com>"
   ],
-  "description": "seemless storage",
+  "description": "seamless storage",
   "main": "$.SLStorage.js",
   "keywords": [
     "localStorage",
